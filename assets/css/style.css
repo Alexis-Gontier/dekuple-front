@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: auto;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    background-color: #505050;
+    height: 400px;
+    width: 375px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+form h1{
+    font-size: 3rem;
+    color: #fff;
+}
+
+#connexion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#mot_de_passe{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#connexion label, #mot_de_passe label{
+    font-size: 1.5rem;
+}
+
+#connexion input, #mot_de_passe input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#valider{
+    width: 150px;
+    border: none;
+    background: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+#valider:hover{
+    color: #009699;
+}
+
+.rond{
+    background-color: #A09ABC;
+    border-radius: 100%;
+}
+
+.opaque{
+    opacity: 0.15;
+}
+
+#rond1{
+    position: absolute;
+    width: 490px;
+    height: 490px;
+    top: -200px;
+    right: -150px;
+    z-index: -1;
+}
+
+#rond2{
+    position: absolute;
+    width: 490px;
+    height: 490px;
+    bottom: -200px;
+    left: -150px;
+    z-index: -1;
+}
+
+#rond3{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    top: 30px;
+    left: 580px;
+    z-index: -1;
+}
+
+#rond4{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    top: 400px;
+    right: 400px;
+    z-index: -1;
+}
+
+#rond5{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    top: 275px;
+    left: 100px;
+    z-index: -1;
+}
+
+#rond6{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    top: 575px;
+    left: 575px;
+    z-index: -2;
+}
+
+#rond7{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 225px;
+    right: 525px;
+    z-index: -1;
+}
