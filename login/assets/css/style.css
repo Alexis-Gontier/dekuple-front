@@ -30,6 +30,9 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    background-image: radial-gradient(#6c63ff 5%, transparent 5%), radial-gradient(#63ffc1 5%, transparent 5%);
+    background-position: 0 0, 25px 25px;
+    background-size: 50px 50px;
 }
 
 h1, h2, h3, h4 {
